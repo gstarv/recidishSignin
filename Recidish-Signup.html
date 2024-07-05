@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recidish Signup Page</title>
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+  <form action="" class="bg-black flex flex-col items-center text-white">
+    
+    <div class="info-fields flex flex-col">
+      <label for="name">Name</label>
+      <input type="text" name="name" class="input">
+  
+      <label for="name">E-mail</label>
+      <input type="text" name="email" class="input">
+  
+      <label for="password">Password</label>
+      <input type="text" name="password" class="input">
+  
+      <label for="comfirm-password">Comfirm password</label>
+      <input type="text" name="comfirm-password" class="input">
+    </div>
+
+    <div class="signin">
+      <button class="signin-button bg-[#996D3E] px-28 py-1 rounded-3xl" id="signin">Signin</button>
+      <p>Don't have an account? <a href="#">Signup</a></p>
+    </div>
+
+    <div class="or flex gap-1 justify-center items-center">
+      <span class="w-28 h-[2px] bg-white"></span> OR <span class="w-28 h-[2px] bg-white"></span>
+    </div>
+
+    <div class="social-media-signin flex flex-col gap-4">
+      <div class="google-signin flex bg-white text-black px-10 py-1 justify-center rounded-3xl">
+        <img src="./Recidish_Images/google-icon.svg" alt="">
+        <h1>Continue with Google</h1>
+      </div>
+      <div class="facebook-signin flex bg-white text-black px-10 py-1 justify-center rounded-3xl items-center">
+        <img src="./Recidish_Images/facebook-icon.svg" alt="">
+        <h1>Continue with Facebook</h1>
+      </div>
+    </div>
+  </form>
+</body>
+</html>

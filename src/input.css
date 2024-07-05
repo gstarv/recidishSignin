@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  outline: 1px solid red;
+}
+
+@layer components{
+  .input{
+    @apply w-[100%] rounded-md  rounded-md  bg-[#482121] bg-opacity-10 border-white border-[1px]   
+  }
+}
+

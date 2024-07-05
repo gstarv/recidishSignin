@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/output.css">
+  <title>Recidish Login Page</title>
+</head>
+<body class="lg:w-[100vw] lg:min-h-[100vh] w-[100vw] min-h-[100vh]  sm:bg-cover sm:bg-sign-in-bgImage  sm:bg-no-repeat ">
+  <form action="" class=" flex flex-col justify-center items-center bg-black  text-white sm:w-full sm:h-full lg:w-[50%] lg:h-[100vh] lg:rounded-tr-[10rem] bg-opacity-30 gap-4">
+     
+    <div class="form-content flex flex-col gap-10 w-[50%]">
+      
+      <div class="social-media-signin flex flex-col gap-4">
+        <a href="#" class="google-signin flex bg-white text-black  justify-center rounded-3xl">
+          <img src="./Recidish_Images/google-icon.svg" alt="">
+          <h1>Continue with Google</h1>
+        </a>
+
+        <a href="#" class="facebook-signin flex  bg-white text-black  justify-center rounded-3xl items-center">
+          <img src="./Recidish_Images/facebookSignIn.svg" alt="">
+          <h1>Continue with Facebook</h1>
+        </a>
+      </div>
+ 
+      <div class="or flex gap-1 justify-center items-center">
+        <span class="w-full h-[1px] bg-white"></span> OR <span class="w-full h-[1px] bg-white"></span>
+      </div>
+  
+      <div class="w- emai-name-signin flex flex-col gap-4">
+        <div class="email-field">
+          <label for="name">Use name or email addres</label>
+          <input type="email" name="name" class="input">
+        </div>
+  
+       <div class="password-field">
+        <label for="password">Your Password</label>
+        <input type="password" name="password" class="input">
+       </div>
+        <div class="flex w-full justify-between"><span class=""> <input type="checkbox"> <label for="check">Show password</label></span><a href="#">Forgot your password?</a></div>
+      </div>
+  
+      <div class="signin w-full">
+        <button class="signin-button w-full bg-[#996D3E]  rounded-3xl" id="signin">Signin</button>
+        <p class="w-full ">Don't have an account? <a href="#">Signup</a></p>
+      </div>
+  
+    </div>
+  </form>
+</body>
+</html>
